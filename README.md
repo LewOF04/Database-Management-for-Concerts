@@ -4,7 +4,7 @@ This is a second-year project using skills learnt around database management, SQ
 - Designed SQL Schema to enforce real-world constraints and provided controls to enforce best database practices.
 - Integrated with Java using prepared statements and an Interface to filter and perform implemented operations.
 
-To compile and run this project PostgreSQL will be required alongside a standard implementation of Java. Unfortunately, I don't have an example database so data would have to be manually inputted using the interface provided to view the functionality in operation.
+To compile and run this project PostgreSQL will be required alongside a standard version of Java. Unfortunately, I don't have an example database so data would have to be manually inputted using the interface provided to view the functionality in operation.
 
 Below is an in depth explanation of the design choices and tasks completed within this project:
 
