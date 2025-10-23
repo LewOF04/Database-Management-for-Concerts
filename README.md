@@ -1,4 +1,14 @@
-# Design Choices
+# READ ME
+
+This is a second-year project using skills learnt around database management, SQL and Java. Within this project I implemented a comprehensive concert DBMS with a combination of PostgreSQL and Java logic to handle operations performed on the database.
+- Designed SQL Schema to enforce real-world constraints and provided controls to enforce best database practices.
+- Integrated with Java using prepared statements and an Interface to filter and perform implemented operations.
+
+To compile and run this project PostgreSQL will be required alongside a standard implementation of Java. Unfortunately, I don't have an example database so data would have to be manually inputted using the interface provided to view the functionality in operation.
+
+Below is an in depth explanation of the design choices and tasks completed within this project:
+
+Design Choices:
 
 The first most obvious difference that could be added is to introduce a actgigid into the act_gig table. Currently in order to uniquely identify a act_gig record, you must create a composite key of the actID, gigID and ontime.
 Two act_gigs cannot be the same act, at the same gig and at the same time, logically, so this composite key ensures uniqueness. However it is complicated to process within statements since there are three factors that must be considered when we want to know which act_gig we're talking about.
